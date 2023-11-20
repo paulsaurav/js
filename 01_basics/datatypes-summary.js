@@ -36,4 +36,26 @@ const myFunction = function(){
     console.log("Hello World");
 }
 
-console.log(myFunction);
+// console.log(myFunction);
+
+
+
+let var1 = "Saurav"
+let var2 = var1
+
+// console.log(var1);
+// console.log(var2);
+
+let userOne = {
+    username : "Saurav",
+    number : 7002909568,
+    mail : "sauravpaul03@gmail.com"
+}
+
+let userTwo = userOne
+
+userTwo.number = 917002909568 
+
+console.log(userOne.number)
+console.log(userTwo.number)
+console.log(userOne)
