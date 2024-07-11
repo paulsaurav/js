@@ -51,10 +51,27 @@ const users = [
             }
 ]
 
-const print = users[1].email
+// const print = users[1].email
 // console.log(print);
 // console.log(tinderUser);
 // console.log(Object.keys(tinderUser));
 // console.log(Object.values(tinderUser));
 // console.log(Object.entries(tinderUser));
-console.log(tinderUser.hasOwnProperty("saurav"));
+// console.log(tinderUser.hasOwnProperty("saurav"));
+
+
+
+const course = {
+    coursename : "JS for beginners",
+    price : "$299",
+    courseTeacher : "Saurav Paul",
+
+}
+
+
+const {courseTeacher} = course
+const {coursename: cname} = course
+
+
+console.log(courseTeacher);
+console.log(cname);
